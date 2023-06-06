@@ -1,0 +1,17 @@
+  106  git init
+  107  git remote add origin https://github.com/VictorFalconi/20230605-VictorFalconi.git
+  108  git remote -v
+  109  touch comandos.txt main.js index.html
+  110  git add .
+  111  git commit -m "Primer commit"
+  112  git push -u origin main
+  113  git checkout -b feature
+  114  mkdir Hardware Software SeguridadInformatica
+  115  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  116  git add .
+  117  git commit -m "Segundo commit"
+  118  git push origin feature
+  119  git checkout main
+  120  mv main.js resumenHardware.txt
+  121  mv index.html resumenSoftware.txt
+  122  history > comandos.txt
